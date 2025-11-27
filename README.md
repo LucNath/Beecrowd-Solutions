@@ -43,10 +43,17 @@ Aqui registro minha evolução diária em:
 
 As soluções estão organizadas por **linguagem de programação**, facilitando navegação e consulta:
 
-
+📁 Beecrowd-Solutions/
+├── C/
+├── C++/
+├── Java/
+├── Python/
 
 Cada arquivo recebe o nome do **número do problema**, exemplo:
 
+1001.c → Problema 1001 – Extremamente Básico
+1018.py → Cédulas
+1040.java → Média 3
 
 ---
 
@@ -66,5 +73,10 @@ Cada arquivo recebe o nome do **número do problema**, exemplo:
 ```bash
 gcc arquivo.c -o prog
 ./prog
+g++ arquivo.cpp -o prog
+./prog
+javac Main.java
+java Main
+python3 arquivo.py
 
 
