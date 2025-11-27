@@ -2,9 +2,9 @@
 <h3 align="center">Repositório dedicado à prática contínua de lógica, algoritmos e resolução de problemas</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C%20%7C%20C++%20%7C%20Java%20%7C%20Python-informational?style=flat&logo=data:image/svg+xml;base64,"/>
-  <img src="https://img.shields.io/badge/Status-Ativo-brightgreen?style=flat"/>
-  <img src="https://img.shields.io/badge/Plataforma-Beecrowd-blue?style=flat"/>
+  <img src="https://img.shields.io/badge/Languages-C | C++ | Java | Python-0A84FF?style=for-the-badge&logo=code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Ativo-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Plataforma-Beecrowd-blue?style=for-the-badge"/>
 </p>
 
 ---
