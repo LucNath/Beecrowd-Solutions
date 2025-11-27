@@ -1,7 +1,7 @@
-import java.io.IOException;
+﻿import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class beecrowd2708 {
 
     public static void main(String[] args) throws IOException {
     Scanner prompt = new Scanner(System.in);

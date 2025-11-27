@@ -1,8 +1,8 @@
-import java.io.IOException;
+﻿import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class beecrowd1068 {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 
@@ -33,7 +33,7 @@ public class Main {
     }
 }
 
-class Node {
+class beecrowd1068 {
     private Object value;
 
     private Node next;
@@ -80,7 +80,7 @@ class Node {
     }
 }
 
-class StackDynamicList {
+class beecrowd1068 {
     private Node last;
 
     private int size;

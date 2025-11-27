@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+﻿import java.io.BufferedReader;
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class Main{
+public class beecrowd1030{
 
     static FastScanner in = new FastScanner(System.in);
     static PrintWriter out = new PrintWriter(System.out);
@@ -37,7 +37,7 @@ public class Main{
         return ans;
     }
 
-    static class FastScanner implements Closeable {
+    static class beecrowd1030 implements Closeable {
 
         private final BufferedReader reader;
         private StringTokenizer tokenizer;

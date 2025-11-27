@@ -1,7 +1,7 @@
-import java.io.IOException;
+﻿import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class beecrowd2460 {
  
     public static void main(String[] args) throws IOException {
  
@@ -30,7 +30,7 @@ public class Main {
         nova_fila.print();
     }
 }
-class Organizador_de_lista {
+class beecrowd2460 {
 
     private int[] elemento;
 
@@ -79,7 +79,7 @@ class Organizador_de_lista {
     
 }
 
-class Organizador_de_fila {
+class beecrowd2460 {
 
     private int[] elemento;
 

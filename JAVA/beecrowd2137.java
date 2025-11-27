@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class Main {
+public class beecrowd2137 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ public class Main {
     }
 }
 
-class ListaEncadeadaOrdenada<E extends Comparable<E>> {
+class beecrowd2137<E extends Comparable<E>> {
     private Node<E> primeiro;
     private Node<E> ultimo;
     private int count = 0;
@@ -35,7 +35,7 @@ class ListaEncadeadaOrdenada<E extends Comparable<E>> {
 
     public E get(int index) {
         if (index < 0 || index >= count)
-            throw new IndexOutOfBoundsException("Índice " + index + ", Comprimento " + count);
+            throw new IndexOutOfBoundsException("Ãndice " + index + ", Comprimento " + count);
 
         Node<E> atual = primeiro;
         for (int i = 0; i < count; i++) {
@@ -143,7 +143,7 @@ class ListaEncadeadaOrdenada<E extends Comparable<E>> {
         return count == 0;
     }
 
-    private static class Node<E> {
+    private static class beecrowd2137<E> {
         E item;
         Node<E> anterior;
         Node<E> proximo;

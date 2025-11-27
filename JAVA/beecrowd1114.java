@@ -1,6 +1,6 @@
-import java.io.IOException;
+﻿import java.io.IOException;
 import java.util.Scanner;
-public class Main{
+public class beecrowd1114{
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 		int senha = 0;	
