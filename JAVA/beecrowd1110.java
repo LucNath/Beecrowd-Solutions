@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class Main {
+public class beecrowd1110 {
 	int Vetor[];
 	int inicio;
 	int fim;
@@ -46,7 +46,7 @@ public class Main {
 
 	public void remover(){
 		if (fim==-1){  
-			System.out.println("A fila está vaizia!");
+			System.out.println("A fila estÃ¡ vaizia!");
 		}else{
 			inicio++;
 			count--;
