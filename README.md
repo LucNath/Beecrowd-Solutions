@@ -1,82 +1,112 @@
-<h1 align="center">🐝 Beecrowd Solutions</h1>
-<h3 align="center">Repositório dedicado à prática contínua de lógica, algoritmos e resolução de problemas</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Languages-C | C++ | Java | Python-0A84FF?style=for-the-badge&logo=code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Status-Ativo-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Plataforma-Beecrowd-blue?style=for-the-badge"/>
-</p>
-
----
-
-## 🚀 Sobre Este Repositório
-
-Este repositório reúne minhas **soluções para os desafios do Beecrowd**, plataforma amplamente utilizada em competições, entrevistas técnicas e para treinamento intensivo de lógica e algoritmos.
-
-Aqui registro minha evolução diária em:
-
-- Estruturas de dados  
-- Algoritmos fundamentais  
-- Raciocínio lógico  
-- Programação competitiva  
-- Otimização de soluções  
-- Pensamento computacional  
-
-> 💡 **Objetivo principal:** desenvolver código limpo, eficiente e escalável — como aplicado em entrevistas técnicas reais.
-
----
-
-## 🧠 Habilidades Desenvolvidas
-
-✔ Manipulação de strings  
-✔ Recursão e backtracking  
-✔ Estruturas de dados (pilhas, filas, mapas, listas)  
-✔ Algoritmos de ordenação e busca  
-✔ Matemática e raciocínio lógico  
-✔ Simulações e problemas ad-hoc  
-✔ IO rápido e tratamento de exceções  
-✔ Otimização de complexidade (tempo/memória)
-
----
-
-## 🗂️ Estrutura das Soluções
-
-As soluções estão organizadas por **linguagem de programação**, facilitando navegação e consulta:
-
-📁 Beecrowd-Solutions/
-├── C/
-├── C++/
-├── Java/
-├── Python/
-
-Cada arquivo recebe o nome do **número do problema**, exemplo:
-
-1001.c → Problema 1001 – Extremamente Básico
-1018.py → Cédulas
-1040.java → Média 3
-
----
-
-## 🖥️ Tecnologias Utilizadas
 <div align="center">
-  <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
-  <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
-  <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-  <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+
+# 🐝 Beecrowd Solutions
+
+**Repositório de soluções para problemas do [Beecrowd](https://www.beecrowd.com.br/) (antigo URI Online Judge)**
+
+[![Linguagem](https://img.shields.io/badge/Linguagem-C%20%7C%20C%2B%2B%20%7C%20Python-blue?style=flat-square)](#)
+[![Status](https://img.shields.io/badge/Status-Em%20progresso-yellow?style=flat-square)](#)
+[![Plataforma](https://img.shields.io/badge/Plataforma-Beecrowd-orange?style=flat-square)](https://www.beecrowd.com.br/)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=flat-square)](LICENSE)
+
 </div>
 
 ---
 
-## ▶️ Como Executar as Soluções
+## 📌 Sobre o repositório
 
-### 🔹 C
-```bash
-gcc arquivo.c -o prog
-./prog
-g++ arquivo.cpp -o prog
-./prog
-javac Main.java
-java Main
-python3 arquivo.py
+Este repositório reúne minhas soluções para os problemas do **Beecrowd**, com foco em aprendizado e evolução contínua em:
 
+- Lógica de programação e raciocínio algorítmico
+- Estruturas de dados (listas, filas, pilhas, árvores, grafos)
+- Algoritmos clássicos (ordenação, busca, programação dinâmica, etc.)
+- Preparação para entrevistas técnicas e competições de programação
 
+Cada solução é pensada para ser **clara, eficiente e bem documentada**.
+
+---
+
+## 📂 Estrutura do repositório
+
+```
+Beecrowd-Solutions/
+│
+├── 1000-1099/         # Problemas iniciantes
+│   ├── 1001.cpp
+│   ├── 1002.py
+│   └── ...
+│
+├── 1100-1199/         # Problemas básicos
+│   └── ...
+│
+├── 2000-2999/         # Problemas de estruturas de dados
+│   └── ...
+│
+└── README.md
+```
+
+> 💡 Os arquivos são nomeados com o número do problema para fácil localização.
+
+---
+
+## 🗂️ Categorias de problemas
+
+| Categoria              | Faixa de IDs  | Status        |
+|------------------------|---------------|---------------|
+| 🟢 Iniciante           | 1000 – 1099   | Em progresso  |
+| 🔵 Básico              | 1100 – 1199   | Em progresso  |
+| 🟡 Ad Hoc              | 1200 – 1299   | Em progresso  |
+| 🟠 Strings             | 1300 – 1399   | Em progresso  |
+| 🔴 Estruturas de Dados | 1400+         | Em progresso  |
+| 🟣 Grafos              | 2000+         | Em progresso  |
+
+---
+
+## 🚀 Como usar
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/LucNath/Beecrowd-Solutions.git
+   ```
+
+2. **Navegue até a pasta desejada:**
+   ```bash
+   cd Beecrowd-Solutions/1000-1099
+   ```
+
+3. **Execute a solução localmente ou envie diretamente ao Beecrowd.**
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **C / C++** — para soluções que exigem alto desempenho
+- **Python** — para soluções mais legíveis e rápidas de escrever
+
+---
+
+## 📈 Progresso
+
+| Problemas resolvidos | Meta atual |
+|----------------------|------------|
+| 🔄 Atualizando...    | 100+       |
+
+---
+
+## 🤝 Contribuições
+
+Este é um repositório pessoal de estudos, mas sugestões são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request** com melhorias ou soluções alternativas.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](LICENSE). Sinta-se livre para usar o código para fins de estudo.
+
+---
+
+<div align="center">
+
+Feito com 💛 por [LucNath](https://github.com/LucNath) · Estudando um problema de cada vez 🐝
+
+</div>
