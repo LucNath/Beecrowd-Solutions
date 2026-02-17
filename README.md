@@ -1,112 +1,123 @@
-<div align="center">
+# Beecrowd Solutions - Java
 
-# 🐝 Beecrowd Solutions
+Repositório contendo soluções de problemas da plataforma **[Beecrowd](https://www.beecrowd.com.br)** implementadas em **Java**.
 
-**Repositório de soluções para problemas do [Beecrowd](https://www.beecrowd.com.br/) (antigo URI Online Judge)**
+## 📋 Sobre
 
-[![Linguagem](https://img.shields.io/badge/Linguagem-C%20%7C%20C%2B%2B%20%7C%20Python-blue?style=flat-square)](#)
-[![Status](https://img.shields.io/badge/Status-Em%20progresso-yellow?style=flat-square)](#)
-[![Plataforma](https://img.shields.io/badge/Plataforma-Beecrowd-orange?style=flat-square)](https://www.beecrowd.com.br/)
-[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=flat-square)](LICENSE)
+Este projeto reúne resoluções de desafios de programação do Beecrowd, cobrindo tópicos como:
 
-</div>
+- Estruturas de dados
+- Algoritmos clássicos
+- Programação dinâmica
+- Grafos
+- Matemática
+- Strings e processamento de texto
+- Busca e ordenação
 
----
+## 🚀 Como Usar
 
-## 📌 Sobre o repositório
+### Pré-requisitos
 
-Este repositório reúne minhas soluções para os problemas do **Beecrowd**, com foco em aprendizado e evolução contínua em:
+- Java 8 ou superior
+- Git (opcional, para clonar o repositório)
 
-- Lógica de programação e raciocínio algorítmico
-- Estruturas de dados (listas, filas, pilhas, árvores, grafos)
-- Algoritmos clássicos (ordenação, busca, programação dinâmica, etc.)
-- Preparação para entrevistas técnicas e competições de programação
+### Instalação
 
-Cada solução é pensada para ser **clara, eficiente e bem documentada**.
+```bash
+# Clone o repositório
+git clone https://github.com/LucNath/Beecrowd-Solutions.git
 
----
+# Acesse a pasta JAVA
+cd Beecrowd-Solutions/JAVA
+```
 
-## 📂 Estrutura do repositório
+### Executar uma Solução
+
+```bash
+# Compile o arquivo Java
+javac NomeDaClasse.java
+
+# Execute o programa
+java NomeDaClasse
+```
+
+## 📁 Estrutura do Projeto
 
 ```
-Beecrowd-Solutions/
-│
-├── 1000-1099/         # Problemas iniciantes
-│   ├── 1001.cpp
-│   ├── 1002.py
-│   └── ...
-│
-├── 1100-1199/         # Problemas básicos
-│   └── ...
-│
-├── 2000-2999/         # Problemas de estruturas de dados
-│   └── ...
-│
+JAVA/
+├── 1000_HelloWorld.java
+├── 1001_SomaMuitoSimples.java
+├── 1002_AreaDoCirculo.java
+├── ... (mais soluções)
 └── README.md
 ```
 
-> 💡 Os arquivos são nomeados com o número do problema para fácil localização.
+Cada arquivo corresponde a um problema específico do Beecrowd, identificado pelo número do problema.
+
+## 🎯 Problemas Resolvidos
+
+| ID | Problema | Dificuldade | Status |
+|:--:|----------|:-----------:|:------:|
+| 1000 | Hello World! | ⭐ | ✅ |
+| 1001 | Soma Muito Simples | ⭐ | ✅ |
+| 1002 | Área do Círculo | ⭐ | ✅ |
+
+*Nota: Atualize a tabela conforme adiciona novas soluções.*
+
+## 💡 Dicas para Contribuir
+
+Se você deseja adicionar novas soluções:
+
+1. Resolva o problema no Beecrowd
+2. Crie um arquivo com o nome `[ID]_NomeDoProblema.java`
+3. Inclua comentários explicando a lógica
+4. Teste a solução
+5. Atualize este README se necessário
+
+### Padrão de Código
+
+```java
+import java.util.Scanner;
+
+public class 1000_HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // Seu código aqui
+        
+        sc.close();
+    }
+}
+```
+
+## 🔗 Links Úteis
+
+- [Beecrowd](https://www.beecrowd.com.br) - Plataforma oficial
+- [Documentação Java](https://docs.oracle.com/javase/tutorial/) - Tutorial oficial do Java
+- [Algoritmos Clássicos](https://www.geeksforgeeks.org/) - Referência de algoritmos
+
+## 📊 Estatísticas
+
+- **Total de Problemas Resolvidos**: [X]
+- **Linguagem**: Java
+- **Última Atualização**: [Data]
+
+## 👨‍💻 Autor
+
+**[LucNath](https://github.com/LucNath)**
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 🤝 Apoio
+
+Se este repositório foi útil para você, considere:
+
+- ⭐ Dar uma estrela no repositório
+- 📢 Compartilhar com amigos que estão aprendendo programação
+- 💬 Abrir uma issue se encontrar algum erro
 
 ---
 
-## 🗂️ Categorias de problemas
-
-| Categoria              | Faixa de IDs  | Status        |
-|------------------------|---------------|---------------|
-| 🟢 Iniciante           | 1000 – 1099   | Em progresso  |
-| 🔵 Básico              | 1100 – 1199   | Em progresso  |
-| 🟡 Ad Hoc              | 1200 – 1299   | Em progresso  |
-| 🟠 Strings             | 1300 – 1399   | Em progresso  |
-| 🔴 Estruturas de Dados | 1400+         | Em progresso  |
-| 🟣 Grafos              | 2000+         | Em progresso  |
-
----
-
-## 🚀 Como usar
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/LucNath/Beecrowd-Solutions.git
-   ```
-
-2. **Navegue até a pasta desejada:**
-   ```bash
-   cd Beecrowd-Solutions/1000-1099
-   ```
-
-3. **Execute a solução localmente ou envie diretamente ao Beecrowd.**
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-- **C / C++** — para soluções que exigem alto desempenho
-- **Python** — para soluções mais legíveis e rápidas de escrever
-
----
-
-## 📈 Progresso
-
-| Problemas resolvidos | Meta atual |
-|----------------------|------------|
-| 🔄 Atualizando...    | 100+       |
-
----
-
-## 🤝 Contribuições
-
-Este é um repositório pessoal de estudos, mas sugestões são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request** com melhorias ou soluções alternativas.
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](LICENSE). Sinta-se livre para usar o código para fins de estudo.
-
----
-
-<div align="center">
-
-Feito com 💛 por [LucNath](https://github.com/LucNath) · Estudando um problema de cada vez 🐝
-
-</div>
+**Feliz Codificação! 🚀**
